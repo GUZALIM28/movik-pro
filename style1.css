@@ -49,6 +49,12 @@ a {
     height: 30px;
     border: 1px solid #EB2D66;
     }
+    .header h2 a {
+      width: 30px;
+height: 20px;
+color: #EB2D66;
+
+    }
 
     .hero-dron  {
         position: relative;
@@ -134,7 +140,7 @@ bottom: 10px;
     position: relative;
     left: 250px;
     top: 50px;
-    }
+}
 
 .hero-left {
     margin: 100px 0;
@@ -145,100 +151,40 @@ bottom: 10px;
     justify-content: space-between;
     /* margin: 220px 0; */
 }
-
-
-
-/* BLOCK */
-
-.block2 a {
-    color: black;
+#work {
+  padding: 30px 0;
 }
-
-.block1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.block2 a {
-    color: black;
-    margin: 0 20px;
-}
-
-.block0 {
-    position: absolute;
-    background: rgb(255, 253, 253);
-    border-radius: 10px;
-}
-
-.block4 a {
-    display: flex;
-    flex-wrap: wrap;
-font-size: 12px;
-font-weight: 400;
-line-height: 19px;
-color: #2C3BA0;
-margin-bottom: 20px;
-}
-
-.block {
-    position: relative;
-    left: 10px;
-    margin-bottom: 20px;
-}
-
-.tt {
-    position: relative;
-    right: 29px;
-}
-
-.block4 {
-    position: relative;
-    left: 10px;
-    margin-bottom: 30px;
-}
-
-.block5 {
-    position: relative;
-    left: 10px;
-font-size: 15px;
+.work-text h1 {
+font-size: 25px;
 font-weight: 900;
-line-height: 18px;
-color: #0C76D8;
+line-height: 30px;
+color: black;
+}
+.work-text a span{
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+color: #0C76D8;  
+}
+.work-text a {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color:  #2A2D46;
+}
+.work-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 120px;
 }
 
-.rr {
-    position: relative;
-    left: 150px;
-    bottom: 40px;
-}
-
-.div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#block {
-    margin: 250px 0 ;
-}
-.block1 {
-    margin: 70px 0 ;
-}
 
 
 
 
 #catolog {
+  /* padding: 30px 0; */
     margin-top: 100px;
   }
   .catolog {
@@ -282,7 +228,12 @@ color: #0C76D8;
     gap: 50px;
   }
 
-
+  #tehno-blocks {
+    width: 270px;
+height: 487px;
+background: rgba(255, 255, 255, 0.856);
+  }
+  
   .tehno-blocks {
     display: flex;
     align-items: center;
@@ -291,7 +242,7 @@ color: #0C76D8;
   .tehno-block {
     width: 300px;
     height: 487px;
-    background: white;
+    background: rgba(255, 255, 255, 0.781);
     padding: 25px 30px;
     display: flex;
     flex-direction: column;
